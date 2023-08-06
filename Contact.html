@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/Logo.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <link
+  href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css"
+  rel="stylesheet"
+/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="form.css">
+    <title>Contact-Form</title>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("d6_c6onFaX1AP1gqg");
+   })();
+</script>
+</head>
+<body>
+  <header class="pb-5 overflow-hidden"id="heading">
+    <div class="firstnav container">
+        <div class="row py-5 ">
+            <div class=" col">
+                <a href="index.html" class="navbar-brand "><img src="images/Logo.jpeg" style="border-radius: 50%;" style="isolation: isolate;" width="100x" alt=""></a>
+                </div>
+                <div class="col-sm d-none d-md-flex justify-content-end">
+                    <p class="fw-bold fs-4">Nile-Projects</p>
+                   
+            </div>
+        </div>
+        <div class="forma">
+           <h1>Contact us!</h1>
+    
+    <form id="contact-form" method="post">
+      <label for="name">Full name</label>
+  <input type="text" id="name" name="name" placeholder="Your Full Name" required>
+      <label for="email">Email Address</label>
+  <input type="email" id="email" name="email" placeholder="Your Email Address" required>
+      <label for="message">Message</label>
+  <textarea rows="6" placeholder="Your Message!" id="message" name="message" required></textarea>
+      <!--<a href="javascript:void(0)">--><button onclick="SendMail()" type="submit" id="submit" name="submit">Send</button><!--</a>-->
+</form>
+        </div>
+       
+
+<div id="error"></div>
+<div id="success-msg"></div>
+  </div>
+</div>
+
+
+   
+  
+  
+        
+     
+
+        <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>       
+ <script src="index.js"></script>
+</body>
+</html>
+</body>
+</html>
